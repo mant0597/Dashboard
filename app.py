@@ -1,4 +1,3 @@
-
 import dash
 from dash import dcc, html
 from dash.dependencies import Input, Output
@@ -116,6 +115,5 @@ def update_purchase_frequency(graph_type):
         }
 
     return fig
-
 if __name__ == '__main__':
     app.run_server(debug=True)
